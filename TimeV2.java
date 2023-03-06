@@ -24,4 +24,5 @@ public class TimeV2 {
         String paddedseconds = getSeconds() < 10 ? "0" + getSeconds() : "" + getSeconds();
         return getHours() + ":" + paddedminutes + ":" + paddedseconds;
 }
+// NOTE: please include code in a 'main' method that demonstrates your methods, so I can quickly test it by running that
 }
