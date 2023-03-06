@@ -22,7 +22,6 @@ public class main {
         else {
             hour = "" + time.getHours();
         }
-
        System.out.println("The time in standard time is " + hour + ":" + String.format("%02d", time.getMinutes()) + (pm ? " pm" : " am"));
     }
 }

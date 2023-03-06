@@ -24,6 +24,7 @@ public class Date {
     public String toString() {
         String paddedMonth = month < 10 ? "0" + month : "" + month;
         String paddedDay = day < 10 ? "0" + day : "" + day;
-        return paddedMonth + "/" + paddedDay + "/" + year;
+        String paddedYear = day < 10 ? "0" + day : "" + day;
+        return paddedMonth + "/" + paddedDay + "/" + paddedYear;
     }
 }
